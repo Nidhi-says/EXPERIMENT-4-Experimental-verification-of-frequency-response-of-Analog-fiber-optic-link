@@ -3,7 +3,7 @@
 # Fiber Optic Link Analysis (660nm)
 
 ## AIM
-To analyze the relationship between input and received signal of a 660nm fiber optic cable using analog and digital link.
+To analyze the relationship between input and received signal of a 660nm fiber optic cable using analog link.
 
 ---
 
@@ -44,14 +44,15 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 
 ## BLOCK DIAGRAM
 
-*(Insert block diagram here)*
+<img width="1280" height="715" alt="image" src="https://github.com/user-attachments/assets/c7d59c66-48e8-4b75-bfc7-68a6cac89805" />
+
 
 ---
 
 ## CONNECTION DIAGRAM  
 **Setting up an Analog Link**
 
-*(Insert connection diagram here)*
+<img width="1280" height="437" alt="image" src="https://github.com/user-attachments/assets/e6ebae09-edc6-4b9c-a933-42a0985180e2" />
 
 ---
 
@@ -60,16 +61,28 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 
 | Frequency (Hz) | Output Signal Amplitude (Vo) | Gain = Vo/Vi | Gain in dB |
 |----------------|------------------------------|--------------|------------|
-|                |                              |              |            |
+|50              |138                           |0.644         |1.938       |
+|3.33            |150                           |0.700         |1.549       |
+|9.86            |148                           |0.691         |1.605       |
+|10.2k           |148                           |0.691         |1.605       |
+|13k             |146                           |0.68          |1.674       |
+|16k             |144                           |0.672         |1.726       |
+|33M             |140                           |0.654         |1.844       |
+|3M              |136                           |0.028         |1.526       |
 
 ---
 
 ## MODEL GRAPH
 
-*(Insert model graph here)*
+<img width="987" height="1280" alt="image" src="https://github.com/user-attachments/assets/b2f54943-2296-4422-86a0-95a938dee8eb" />
 
 ---
 
+## OUTPUT GRAPH
+
+<img width="1280" height="1014" alt="image" src="https://github.com/user-attachments/assets/c0ae32a4-05c5-451a-b653-e47d830aceab" />
+
+---
 ## RESULT
 
-*(Summarize observations and conclusions here)*
+Thus the relationship between input and received signal of a 660nm fiber optic cable using analog link is successfully analyzed.
